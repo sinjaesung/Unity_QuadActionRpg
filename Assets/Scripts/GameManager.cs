@@ -54,6 +54,8 @@ public class GameManager : MonoBehaviour
 
     private void Awake()
     {
+        //github 파일변경 테스트
+
         enemyList = new List<int>();
         maxScoreTxt.text = string.Format("{0:n0}", PlayerPrefs.GetInt("MaxScore"));
 
